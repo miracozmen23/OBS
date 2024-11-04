@@ -132,5 +132,3 @@ Her tablo, veritabanındaki bir varlık grubunu temsil eder. Bu varlıkların ö
 - **Exams → Courses**: Her ders için birden fazla sınav yapılabilir, ancak her sınav yalnızca bir derse bağlıdır (1).
 - **ExamResults → Students → Exams**: Her öğrenci her sınavdan bir sonuç alabilir, bu nedenle öğrenciler ve sınavlar arasındaki ilişki N'dir.
 
-- ![OBS E-R Diyagramı](./OBS.jpg)
-
