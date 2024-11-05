@@ -115,7 +115,7 @@ Her tablo, veritabanındaki bir varlık grubunu temsil eder. Bu varlıkların ö
 - `day`: Gün, örneğin "Pazartesi".
 - `start_time`: Dersin başlangıç saati.
 - `end_time`: Dersin bitiş saati.
-- `room`: Dersin yapıldığı oda.
+- `class`: Dersin yapıldığı sınıf.
 
 **İlişkiler:**
 - Ders programı, birden fazla ders için düzenlenebilir.
