@@ -45,6 +45,7 @@ Her tablo, veritabanındaki bir varlık grubunu temsil eder. Bu varlıkların ö
 - `surname`: Öğrenci soyadı, zorunlu bir metin alanı.
 - `student_number`: Benzersiz öğrenci numarası, her öğrenci için tekil ve zorunlu.
 - `department_id`: Öğrencinin bağlı olduğu bölüm (FK, Departments tablosuna bağlı).
+- `advisor_id`: Öğrencinin bağlı olduğu danışman.
 
 **İlişkiler:** 
 - Bir öğrenci yalnızca bir bölüme (Departments tablosundaki bir satıra) aittir.
@@ -55,7 +56,6 @@ Her tablo, veritabanındaki bir varlık grubunu temsil eder. Bu varlıkların ö
 - `name`: Öğretmen adı, zorunlu bir metin alanı.
 - `surname`: Öğretmen soyadı, zorunlu bir metin alanı.
 - `department_id`: Öğretmenin bağlı olduğu bölüm (FK, Departments tablosuna bağlı).
-- `adviser_id`: Öğrencinin bağlı olduğu danışman.
 
 **İlişkiler:**
 - Her öğretmen birden fazla derse girebilir ve birden fazla öğrenciye ders verebilir.
