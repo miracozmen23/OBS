@@ -69,7 +69,7 @@ Her tablo, veritabanındaki bir varlık grubunu temsil eder. Bu varlıkların ö
 
 **İlişkiler:**
 - Her ders bir öğretmen tarafından verilir, ancak birden fazla öğrenci katılabilir.
-- Her ders, yalnızca bir bölüme atanır.
+- Bir ders, birden fazla bölüme atanabilir.
 
 #### 2.4 AttendanceRecords (Devamsızlık Kayıtları)
 - `id`: Birincil anahtar (PK), benzersiz devamsızlık kaydı kimliği.
