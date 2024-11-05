@@ -126,11 +126,11 @@ Her tablo, veritabanındaki bir varlık grubunu temsil eder. Bu varlıkların ö
 ### 3. İlişkiler ve Sayısal Kısıtlamalar
 
 - **Students → Departments**: Her öğrenci yalnızca bir bölüme atanır (1:1).
-- **Students → AttendanceRecords**: Her öğrenci, her ders için devamsızlık kaydı tutabilir (1).
-- **Courses → Teachers**: Her ders yalnızca bir öğretmen tarafından verilir, ancak her öğretmen birden fazla derse sahip olabilir (1).
-- **Courses → Departments**: Her ders yalnızca bir bölüme atanır, ancak bir bölümde birden fazla ders olabilir (1).
-- **Exams → Courses**: Her ders için birden fazla sınav yapılabilir, ancak her sınav yalnızca bir derse bağlıdır (1).
-- **ExamResults → Students → Exams**: Her öğrenci her sınavdan bir sonuç alabilir, bu nedenle öğrenciler ve sınavlar arasındaki ilişki N'dir.
+- **Students → AttendanceRecords**: Her öğrenci, her ders için devamsızlık kaydı tutabilir (N:M).
+- **Courses → Teachers**: Her ders birden fazla öğretmen tarafından verilebilir, her öğretmen birden fazla derse sahip olabilir (N:M).
+- **Courses → Departments**: Her ders yalnızca bir bölüme atanır, ancak bir bölümde birden fazla ders olabilir (1:N).
+- **Exams → Courses**: Her ders için birden fazla sınav yapılabilir, ancak her sınav yalnızca bir derse bağlıdır (1:N).
+- **ExamResults → Students → Exams**: Her öğrenci her sınavdan bir sonuç alabilir, bu nedenle öğrenciler ve sınavlar arasındaki ilişki N:N'dir.
 
 ## E-R DİYAGRAMI
 
