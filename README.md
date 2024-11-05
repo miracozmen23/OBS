@@ -99,7 +99,7 @@ Her tablo, veritabanındaki bir varlık grubunu temsil eder. Bu varlıkların ö
 - Her ders için birden fazla sınav yapılabilir.
 - Her sınav yalnızca bir derse bağlıdır.
 
-#### 2.7 ExamResults (Sınav Sonuçları)
+#### 2.7 Grades (Sınav Notları)
 - `id`: Birincil anahtar (PK), benzersiz sınav sonucu kimliği.
 - `student_id`: Sınava giren öğrenci (FK, Students tablosuna bağlı).
 - `exam_id`: Sınav kimliği (FK, Exams tablosuna bağlı).
